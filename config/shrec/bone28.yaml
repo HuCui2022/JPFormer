@@ -1,0 +1,52 @@
+work_dir: ./work_dir/shrec28/bone_xddd # only add the encodings.
+
+# feeder
+feeder: feeders.feeder_shrec17.Feeder
+train_feeder_args:
+  data_path: bone  # 模态 joint, bone, motion, bone motion
+  label_path: train # 训练
+  debug: False
+  random_choose: True
+  random_shift: False
+  random_move: False
+  window_size: 180 # max
+  normalization: False
+  repeat: 5 # 重复
+  label_flag: 28 # 14 or 28
+
+
+test_feeder_args:
+  data_path: bone # 模态
+  label_path: val # 验证
+  debug: False
+  random_choose: False
+  label_flag: 28 # 14 or 28
+
+
+# model
+model: model.VerticalGroups_claster_hand.Model
+model_args:
+  num_class: 28
+  num_point: 22
+  num_person: 1
+  num_of_heads: 3
+  graph: graph.shrec17.Graph
+  graph_args:
+    labeling_mode: 'spatial'
+  joint_label: [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2 ]
+
+#optim
+weight_decay: 0.0006
+base_lr: 0.1
+lr_decay_rate: 0.1
+step: [70, 100]
+
+# training
+device: 0
+batch_size: 32
+test_batch_size: 64
+num_epoch: 150
+nesterov: True
+warm_up_epoch: 20
+
+
