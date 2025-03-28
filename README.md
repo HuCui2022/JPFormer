@@ -1,6 +1,13 @@
 # Joint-Partition Group Attention for Skeleton-Based Action Recognition
 
 This repository holds the Pytorch implementation of [Joint-Partition Group Attention for Skeleton-Based Action Recognition](https://www.sciencedirect.com/science/article/pii/S0165168424002111) by Hu Cui, Tessai Hayama.
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/joint-partition-group-attention-for-skeleton/action-recognition-in-videos-on-ntu-rgbd-120)](https://paperswithcode.com/sota/action-recognition-in-videos-on-ntu-rgbd-120?p=joint-partition-group-attention-for-skeleton)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/joint-partition-group-attention-for-skeleton/skeleton-based-action-recognition-on-n-ucla)](https://paperswithcode.com/sota/skeleton-based-action-recognition-on-n-ucla?p=joint-partition-group-attention-for-skeleton)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/joint-partition-group-attention-for-skeleton/action-recognition-in-videos-on-ntu-rgbd)](https://paperswithcode.com/sota/action-recognition-in-videos-on-ntu-rgbd?p=joint-partition-group-attention-for-skeleton)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/joint-partition-group-attention-for-skeleton/skeleton-based-action-recognition-on-ntu-rgbd)](https://paperswithcode.com/sota/skeleton-based-action-recognition-on-ntu-rgbd?p=joint-partition-group-attention-for-skeleton)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/joint-partition-group-attention-for-skeleton/skeleton-based-action-recognition-on-ntu-rgbd-1)](https://paperswithcode.com/sota/skeleton-based-action-recognition-on-ntu-rgbd-1?p=joint-partition-group-attention-for-skeleton)
+
+
 
 ## Introduction
 
