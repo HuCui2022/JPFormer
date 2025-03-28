@@ -1,6 +1,6 @@
 # Joint-Partition Group Attention for Skeleton-Based Action Recognition
 
-This repository holds the Pytorch implementation of [Joint-Partition Group Attention for Skeleton-Based Action Recognition]() by Hu Cui, Tessai Hayama.
+This repository holds the Pytorch implementation of [Joint-Partition Group Attention for Skeleton-Based Action Recognition](https://www.sciencedirect.com/science/article/pii/S0165168424002111) by Hu Cui, Tessai Hayama.
 
 ## Introduction
 
