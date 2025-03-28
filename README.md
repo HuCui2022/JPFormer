@@ -87,10 +87,21 @@ Run `python main.py --device 0 --config ./config/ntu_test/bm.yaml`
 
 You need to specify the path value according to your own weights file.
 
+
+
+# Citation
+```python
+@article{cui2024joint,
+  title={Joint-Partition Group Attention for skeleton-based action recognition},
+  author={Cui, Hu and Hayama, Tessai},
+  journal={Signal Processing},
+  volume={224},
+  pages={109592},
+  year={2024},
+  publisher={Elsevier}
+}
+```
 ## Acknowledgement
-
-Acknowledgements
-
 This repo is based on
 
 - [2s-AGCN](https://github.com/lshiwjx/2s-AGCN)
